@@ -1,0 +1,305 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* header */
+
+#header {
+	width: 980px;
+	height: 233px;
+	padding: 0;
+    background:      url(images/pwl_header.png)
+}
+
+#header #banner {
+	float: right;
+	margin: 40px 500px 0 0;
+	line-height: 25px;
+}
+
+#header #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#header #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#header #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end header */
+
+/* contact header */
+
+#contactheader {
+    width: 980px;
+	height: 233px;
+	padding: 0;
+    background:      url(images/contact_header.png)
+}
+
+#contactheader #banner {
+	float: right;
+	margin: 40px 500px 0 0;
+	line-height: 25px;
+}
+
+#contactheader #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#contactheader #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#contactheader #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end contact header */
+
+/* food4thought header */
+
+#f4theader {
+    width: 980px;
+    height: 233px;
+	padding: 0;
+    background:      url(images/food_header.png)
+}
+
+#f4theader #banner {
+	float: right;
+	margin: 40px 500px 0 0;
+	line-height: 25px;
+}
+
+#f4theader #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#f4theader #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#f4theader #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end food4thought header */
+
+/* medically supervised header */
+
+#medsupheader {
+    width: 980px;
+    height: 233px;
+    padding: 0;
+    background:      url(images/med_sup_header.png)
+}
+
+#medsupheader #banner {
+	float: right;
+	margin: 40px 500px 0 0;
+	line-height: 25px;
+}
+
+#medsupheader #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#medsupheader #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#medsupheader #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end medially supervised header */
+
+/* success header */
+
+#successheader {
+    width: 980px;
+    height: 233px;
+    padding: 0;
+    background:      url(images/success_header.png)
+}
+
+#successheader #banner {
+    float: right;
+	margin: 40px 500px 0 0;
+	line-height: 25px;
+}
+
+#successheader #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#successheader #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#successheader #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end success header */
+
+/* weightloss header */
+
+#weightlossheader {
+    width: 980px;
+    height: 233px;
+    padding: 0;
+    background:      url(images/weightloss_header.png)
+}
+
+#weightlossheader #banner {
+    float: right;
+    margin: 40px 500px 0 0;
+	line-height: 25px;
+}
+
+#weightlossheader #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#weightlossheader #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#weightlossheader #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end weightloss header */
+
+/* wellness header */
+
+#wellnessheader {
+    width: 980px;
+    height: 233px;
+    padding: 0;
+    background:      url(images/wellness_header.png)
+}
+
+#wellnessheader #banner {
+    float: right;
+    margin: 40px 500px 0 0;
+    line-height: 25px;
+}
+
+#wellnessheader #banner h3 {
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+#wellnessheader #pagehead {
+	float: right;
+	margin: 50px 300px 0 0;
+	line-height: 25px;
+	width:400px;
+}
+
+#wellnessheader #pagehead h3 {
+	font-weight: bold;
+	font-family:"Pristina";
+	font-size:28px;
+	color: #603814;
+}
+
+/* end wellness header */
+
+/* menu */
+
+#menu {
+	clear: both;
+	width: 980px;
+	height: 50px;
+	background: url(images/menu.png) no-repeat;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 6px 0 0 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 2px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	background: url(images/menu_divider.png) repeat-y right;
+}
+
+#menu li a:hover, #menu li .current {
+	color: #044a85;
+}
+
+#menu li .last{
+	background: none;
+}
+
+/* end menu */
+

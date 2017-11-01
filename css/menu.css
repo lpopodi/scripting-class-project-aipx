@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* menu */
+
+#menu {
+	clear: both;
+	width: 980px;
+	height: 50px;
+	background: url(images/menu.png) no-repeat;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 6px 0 0 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 2px 20px;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	outline: none;
+	background: url(images/menu_divider.png) repeat-y right;
+}
+
+#menu li a:hover, #menu li .current {
+	color: #fff;
+}
+
+#menu li .last{
+	background: none;
+}
+
+/* end menu */
+

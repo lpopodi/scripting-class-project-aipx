@@ -1,0 +1,75 @@
+<body>
+
+<form class="wideform" name="contactform" method="post" action="sendmail.php">
+<fieldset>
+	<div class="section">
+				<p class="note">* indicates required field</p>
+				
+              
+      			<p><label for="first-name">First Name<span> *</span></label>
+				<input type="text" id="first-name" name="first-name" />
+                </p>
+			
+            	<p><label for="last-name">Last Name<span> *</span></label>
+				<input type="text" id="last-name" name="last-name" /></p>
+			
+				<p><label for="email">Email<span> *</span></label>
+				<input type="text" id="email" name="email" /></p>
+			
+				<p><label for="telephone">Phone<span> *</span></label>
+				<input type="text" id="telephone" name="telephone" /></p>
+                
+    </div>
+		
+			        	
+		<p>Are you inquiring about weight loss?<br />
+		<input checked="checked" id="radio1" name="radioset" type="radio" value="yes" />
+	    <label for="radio2">Yes</label>
+	    <input id="radio2" name="radioset" type="radio" value="no" />
+	    <label for="radio2">No</label>
+        
+        <div class="section">		        
+				  <p><label for="servicereq">Service Request</label>
+			 	  	<select id="servicereq" name="servicereq">
+					<option value="1">Select Option</option>
+					<option value="Breast Augmentation">Breast Augmentation</option>
+					<option value="Breast Lift">Breast Lift</option>
+					<option value="Breast Reduction">Breast Reduction</option>
+					<option value="Breast Reconstruction">Breast Reconstruction</option>
+					<option value="Brazilian Butt Lift">Brazilian Butt Lift</option>
+            	    <option value="Liposuction">Liposuction</option>
+             	    <option value="Tummy Tuck">Tummy Tuck</option>
+            	    <option value="Face Lift">Face Lift</option>
+             	    <option value="Nose Surgery">Nose Surgery</option>
+             	    <option value="Eyelid Surgery">Eyelid Surgery</option>
+            	    <option value="Necklift">Necklift</option>
+            	    <option value="Botox/Pelleve/Fotofacial">Botox/Pelleve/Fotofacial</option>
+             	    <option value="Skincare">Skincare</option>
+              	 	<option value="Other">Other</option>
+             		</select></p>
+            
+				<p><label for="select-choice">How did you hear about us? </label>
+					<select id="select-choice" name="select-choice">
+				 	<option value="Select Option">Select Option</option>
+				  	<option value="Google Search">Google Search</option>
+				  	<option value="Bing Search">Bing Search</option>
+				  	<option value="Yahoo Search">Yahoo Search</option>
+				  	<option value="Aol Search">Aol Search</option>
+                  	<option value="Yellow Pages">Yellow Pages</option>
+                  	<option value="Facebook">Facebook</option>
+                  	<option value="Referral">Referral</option>
+                  	<option value="Friend">Friend</option>
+                  	<option value="Other">Other</option>
+					</select></p>
+	  
+                
+	  <p><label for="comments">Comments</label>
+					<textarea id="comments" name="comments">Enter description here</textarea></p>
+			</div>
+            
+  </fieldset>
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

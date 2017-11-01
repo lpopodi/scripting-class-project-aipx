@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+form.wideform {
+	width: 50em;
+	margin:20px auto;
+	padding: .5em .5em .15em;
+	
+}
+
+.wideform h3 {
+	margin: 0;
+	padding: 0 0 .2em .2em;
+	font-weight: 600;
+	color: #bbb7ae;
+}
+
+.wideform fieldset {
+	margin: 0;
+	padding: 0 0 .2em 0;
+	width: 100%
+	border: 0;
+}
+
+.wideform .section {
+	overflow: hidden;
+	padding: .2em 0 .4em 0;
+	border-bottom: 8px solid #e7e5df;
+}
+
+.wideform .section:last-child {
+	border-bottom: 0;
+}
+
+.wideform .section label,
+.wideform .section h4 {
+	display: block;
+	clear: both;
+	margin: .3em .3em 0 0;
+	padding-bottom: 1em;
+	font-size: 1.2em;
+	font-family: "Droid Sans";
+	font-weight: 400;
+	line-height: 1.1em;
+}
+
+.wideform .section label span,
+.wideform .section h4 span {
+	font-size: 1em;
+	vertical-align: text-top;
+	color: #f00;
+}
+
+.wideform .section .note {
+	font-size: 1em;
+	color: #f00;
+	margin: 0;
+	padding: 0 0 .3em 0;
+}
+
+.wideform .section input,
+.wideform .section textarea,
+.wideform .section select {
+	margin: .2em .5em .2em 0;
+	padding: .2em .4em;
+	color: #000;
+	-webkit-box-shadow: 1px 1px 3px #ccc;
+	-moz-box-shadow: 1px 1px 3px #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+	font-size: .8em;
+	font-family: inherit;
+	outline: none;
+	width: 20em;
+}
+.wideform .wideformcol {
+	width: 24em;
+	float:left;	
+}

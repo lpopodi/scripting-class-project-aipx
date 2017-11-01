@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+<title>Week6 - Styling Forms</title>
+<link href="../css/normalize.css" rel="stylesheet" type="text/css" />
+<link href="css/stylesForm.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<form class="stylin-form1" action="#" method="post">
+		<h3>Schedule A Consultation</h3>
+		<fieldset>
+			<legend><span>Basic Info</span></legend>
+			<div class="section">
+				<p class="note">* indicates required field</p>
+				<label for="f_name">First Name<span> *</span></label>
+				<input type="text" id="f_name" name="user-name" />
+				<p>Pleasse enter your first name</p>
+			</div>
+            
+            <div class="section">
+				<p class="note">* indicates required field</p>
+				<label for="l_name">Last Name<span> *</span></label>
+				<input type="text" id="l_name" name="user-name" />
+				<p>Pleasse enter your last name</p>
+			</div>
+
+			<div class="section">
+				<label for="password">Password<span> *</span></label>
+				<input type="password" id="password" name="password" maxlength="20" />
+				<p>Password must be 8 or more characters</p>
+			</div>
+
+			<div class="section">
+				<label for="description">Description</label>
+				<textarea id="description" name="description">Enter description here</textarea>
+			</div>
+
+			<div class="section">
+				<label for="special-date">Date</label>
+				<input type="date" id="special-date" name="event-date" min="2012-09-05" />
+			</div>			
+		</fieldset>
+
+		<fieldset>
+			<legend><span>Part 2 &#8226; Multiple-Choice Controls</span></legend>
+
+			<div class="section">
+				<h4>Select Any Number</h4>
+				<div class="section">
+					<input type="checkbox" id="check1" name="checkset" value="1" />
+					<label for="check1">Choice 1</label>
+				</div>
+				<div class="section">
+					<input type="checkbox" id="check2" checked="checked" name="checkset" value="2" />
+					<label for="check2">Choice 2 is pre-checked</label>
+				</div>
+				<div class="section">
+					<input type="checkbox" id="check2" name="checkset" value="2" />
+					<label for="check2">Choice 3&mdash;add as many as you need!</label>
+				</div>
+			</div>
+
+			<div class="section">
+				<h4>Select Only One</h4>
+				<div class="section">
+					<input checked="checked" id="radio1" name="radioset" type="radio" value="Choice_1" />
+					<label for="radio1">Choice 1 is pre-selected and shows the text wraps nicely if it goes to multiple lines.</label>
+				</div>
+				<div class="section">
+					<input id="radio2" name="radioset" type="radio" value="Choice_2" />
+					<label for="radio2">Choice 2</label>
+				</div>
+				<div class="section">
+					<input id="radio3" name="radioset" type="radio" value="Choice_3" />
+					<label for="radio3">Choice 3</label>
+				</div>
+			</div>
+
+			<div class="section">
+				<label for="select-choice">Select Your Choice</label>
+				<select id="select-choice" name="select-choice">
+					<option value="0">None</option>
+					<option value="1">Choice 1</option>
+					<option value="2">Choice 2</option>
+					<option value="3">Choice 3</option>
+					<option value="4">Choice 4</option>
+				</select>
+			</div>
+
+			<div class="section">
+				<input type="submit" value="Submit This Form" />
+			</div>
+		</fieldset>
+	</form>
+</body>
+
+</html>

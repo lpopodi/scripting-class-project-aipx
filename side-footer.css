@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidebar_box {
+	width: 280px;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+.sidebar_box .header {
+	width: 220px;
+	height: 35px;
+	padding: 10px 30px 0;
+	background: url(../images/sidebar_header.png) no-repeat;
+}
+
+.sidebar_box .content {
+	width: 200px;
+	padding: 20px 50px 20px 30px;
+	background color: #603814;
+}
+
+.sidebar_box .bottom {
+	width: 280px;
+	height: 5px;
+	background: url(/images/sidebar_bottom.png) no-repeat;
+}
+
+#footer {
+	width: 920px;
+	height: 42px;
+	padding: 20px 30px 0;
+	color: #ffadad;
+	text-align: center;
+	background: url(/images/footer.png) no-repeat;
+}
+
+#footer a {
+	color: #ffadad;
+}
+
+/* end of footer */
